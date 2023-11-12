@@ -1,0 +1,9 @@
+.box_container{
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}

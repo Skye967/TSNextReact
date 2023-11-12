@@ -1,0 +1,24 @@
+{
+  "name": "box-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.2",
+    "react": "^18",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-bootstrap": "^0.32.35",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
