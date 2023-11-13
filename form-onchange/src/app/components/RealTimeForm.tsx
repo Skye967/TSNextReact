@@ -2,7 +2,10 @@ import React, {useState} from 'react'
 
 
 const RealTimeForm = () => {
-    const [firstName, setFirstName] = useState("");
+    const [firstName, setFirstName]: [
+      firstName: string,
+      setFirstName: React.Dispatch<React.SetStateAction<string>>
+    ] = useState("");
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
